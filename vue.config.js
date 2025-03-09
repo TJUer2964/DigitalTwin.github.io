@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  base: "/DigitalTwin/"
+  base: "/DigitalTwin.github.io/"
 })
