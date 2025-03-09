@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  base: "/DigitalTwin.github.io/"
+  publicPath: "/DigitalTwin.github.io/"  // 将 base 改为 publicPath
 })
